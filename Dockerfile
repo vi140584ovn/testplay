@@ -2,4 +2,4 @@ FROM vovatest/bottlesimple
 
 COPY ./ /app
 
-cmd python /app/login.py
+cmd python login.py
